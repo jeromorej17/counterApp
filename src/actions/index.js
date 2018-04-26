@@ -10,7 +10,10 @@ export const addCounter = ()=> {
     
 };
 
-export const removeCounter = () => ({
+export const removeCounter = () => {
+  return {  
     type: actionType.REMOVE_COUNTER,
     payload: 1
-});
+  }
+    
+};
